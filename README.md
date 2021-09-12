@@ -2,6 +2,12 @@
 
 NFiT 是一个支持买卖、典当等多种交易模式的NFT交易平台，未来还会支持更多交易模式。目前NFiT平台部署在Aurora测试网上。
 
+Aurora测试网
+
+NFiTMarket deployed to: `0x824354ef972e53c95E4b1518f7917a5c5b650B2b`
+
+MathArt deployed to: `0x7E25a984f11f8137405791d046EF297B3E5eFCb4`
+
 `material/` 文件夹存放NFiT平台设计稿、展示ppt等材料。
 
 `frontend/` 文件夹存放NFiT平台前端代码。
