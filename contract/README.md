@@ -1,8 +1,27 @@
-# Basic Sample Hardhat Project
+# NFiT contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+合约包含NFiT市场合约以及符合ERC721的MathArt合约。
 
-Try running some of the following tasks:
+The contracts contains the NFiT Market contract and a ERC721 Token named MathArt.
+
+## 配置 Configuration
+
+在 `.env` 中添加Aurora账户私钥
+
+Add your Aurora Private key (from Metamask) to .env file:
+
+`$ echo "AURORA_PRIVATE_KEY=YOUR_AURORA_PRIVATE_KEY_HERE" >> .env`
+
+## 部署 Deployment
+
+在Aurora测试网上部署合约
+
+Deploy contracts on the Aurora Testnet
+
+`npx hardhat run scripts/deploy.js --network testnet_aurora`
+
+
+## hardhat其他命令
 
 ```shell
 npx hardhat accounts
