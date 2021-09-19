@@ -52,7 +52,7 @@
             Loan Value
           </el-col>
           <el-col :span="12" class="showPrice">
-            {{ nft_info.loan_price }} CFX
+            {{ nft_info.loan_price }} ETH
           </el-col>
         </el-row>
         <el-row type="flex" style="text-align:left;margin-top:10px;margin-left:30px">
@@ -60,7 +60,7 @@
             Replacement Value
           </el-col>
           <el-col :span="12" class="showPrice">
-            {{ nft_info.redeem_price }} CFX
+            {{ nft_info.redeem_price }} ETH
           </el-col>
         </el-row>
         <!-- <el-row  type="flex" style="text-align:left;margin-top:10px;margin-left:30px">
@@ -121,7 +121,7 @@
       <el-row style="margin-top:5%">
         <el-col :span="11" style="text-align:left;margin-left:2%" class="dialog_font">Loan Price</el-col>
         <el-col :span="11" style="text-align:right;margin-right:2%" class="dialog_font">
-          {{ nft_info.loan_price }} CFX
+          {{ nft_info.loan_price }} ETH
         </el-col>
       </el-row>
 
@@ -308,6 +308,7 @@ export default {
         var year = time.getFullYear(); //getFullYear方法以四位数字返回年份
         var month = time.getMonth() + 1; // getMonth方法从 Date 对象返回月份 (0 ~ 11)，返回结果需要手动加一
         var date = time.getDate(); // getDate方法从 Date 对象返回一个月中的某一天 (1 ~ 31)
+        var hours = time.getHours(); // getHours方法返回 Date 对象的小时 (0 ~ 23)
         var hours = time.getHours(); // getHours方法返回 Date 对象的小时 (0 ~ 23)
         var minutes = time.getMinutes(); // getMinutes方法返回 Date 对象的分钟 (0 ~ 59)
         var seconds = time.getSeconds(); // getSeconds方法返回 Date 对象的秒数 (0 ~ 59)

@@ -52,7 +52,7 @@
             Loan Value
           </el-col>
           <el-col :span="12" class="showPrice">
-            {{ nft_info.loan_price }} CFX
+            {{ nft_info.loan_price }} ETH
           </el-col>
         </el-row>
         <el-row type="flex" style="text-align:left;margin-top:10px;margin-left:30px">
@@ -60,7 +60,7 @@
             Repayment Value
           </el-col>
           <el-col :span="12" class="showPrice">
-            {{ nft_info.redeem_price }} CFX
+            {{ nft_info.redeem_price }} ETH
           </el-col>
         </el-row>
         <!-- <el-row  type="flex" style="text-align:left;margin-top:10px;margin-left:30px">
@@ -116,14 +116,14 @@
           {{ nft_info.name }}
         </el-col>
         <el-col :span="11" style="text-align:right;margin-right:2%" class="dialog_font">
-          {{ nft_info.redeem_price }} CFX
+          {{ nft_info.redeem_price }} ETH
         </el-col>
       </el-row>
 
       <el-row style="margin-top:5%">
         <el-col :span="11" style="text-align:left;margin-left:2%" class="dialog_font">Total</el-col>
         <el-col :span="11" style="text-align:right;margin-right:2%" class="dialog_font">
-          {{ nft_info.redeem_price }} CFX
+          {{ nft_info.redeem_price }} ETH
         </el-col>
       </el-row>
 
